@@ -1,0 +1,1353 @@
+/* -- custom css for Bootstrap 3.x --*/
+
+
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+
+}
+
+h1 {
+  font-size:45px;
+  font-weight: bold;
+  margin-bottom: 30px;
+   -webkit-font-smoothing: antialiased;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+}
+
+h1{
+  font-family:'Shadows Into Light Two', sans-serif;
+  letter-spacing:2px;
+   -webkit-font-smoothing: antialiased;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+}
+
+img.aboutusimg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
+	
+.slider-content h2 {
+	font-size: 29px;
+	padding-bottom: 10px;
+	padding-left:150px;
+}
+
+body {
+  background: transparent;
+}
+
+*{
+  margin:0;
+  padding:0;
+}
+
+h3 {
+	color: #222;
+	font-size: 22px;
+	font-weight: bold;
+	font-family: 'Lato', Arial, sans-serif;
+	 -webkit-font-smoothing: antialiased;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+}
+
+/* use special fonts in certain elements */
+.lead p{ 
+ font-family: 'Lato', sans-serif; 
+}
+
+/* fix bs3 horizontal scrollbar bug */
+.row { margin: 0; padding: 0 }
+
+.sectionswitch{
+	background:url(../logo/cloud1.png);
+    background-size:100% 100%;
+	width:100%;
+	height:40%;
+	display:block;
+	
+}
+.sectionswitchwhite {
+background:url(../logo/cloud_white.png);
+    background-size:100% 100%;
+	width:100%;
+	height:40%;
+	display:block;
+}
+
+.icon-bar {
+   background-color:#fff;
+}
+
+.scroll-down a, .scroll-top a {
+   color:#ffffff;
+}
+
+.scroll-down {
+   position:fixed;
+   bottom:20%;
+   right:0%;
+   color:#f9f9f9;
+}
+
+.scroll-top {
+  background-color:#dbdbdb;
+}
+
+.vert {
+  vertical-align: middle;
+  width:100%;
+  padding-top:0%; /*original: 4% */
+  text-align:center;
+  padding-bottom: 0%;
+}
+
+	
+.navbar a {
+  color:#fff;
+  font-size:22px;
+  font-family: 'Tahoma', sans-serif;
+  font-weight:bold;
+}
+
+.navbar ul {
+   clear:left;
+   float:left;
+   list-style:none;
+   margin:0;
+   margin-top: 0;
+   padding:10px;
+   position:relative;
+   left:50%;
+   text-align:center;
+}
+.navbar ul li {
+   display:block;
+   float:left;
+   list-style:none;
+   margin:0;
+   padding:0;
+   position:relative;
+   right:50%;
+   
+}
+
+.navbar-bold.affix {
+  background-color:#222;
+}
+
+.navbar-bold {
+  background-color:#222;
+
+}
+
+.navbar-bold li a:hover, .navbar-bold li.active {
+  background-color:#222; 
+}
+
+
+
+
+/* use alt in navbar and header for different color */
+
+.alt {
+	background-color: #222; /*home color*/
+	
+}
+
+.alt .lead { /*text under the logo*/
+  color: #FF096A;
+}
+
+.alt.affix {
+  background-color:#222;
+}
+
+.alt li a:hover, .alt li.active, .alt li a:focus { /*navigation bar elements color, old one used: #5D17BA*/
+  color:#ff096a;
+  background-color: #222;
+}
+
+
+/* Tab section CODE ENDS*/
+
+
+/* all the id's start here */
+#mobilising-experiences-digitally {
+	padding-bottom: 60px;
+}
+
+.mainsection {
+	padding-top:90px;
+}
+
+.subsection {
+	padding-top:30px;
+}
+
+
+#mobilise-emotions-and-engagement {
+	text-align: center;
+}
+
+#networksubheading {
+	font-size: 28px;
+	color: #222;
+	margin:10px 0 40px 0;
+}
+
+.mainheading {
+	font-size: 28px;
+	padding-top:100px;
+	color: #222;
+	margin:10px 0 20px 0;
+	
+}
+
+.heading1 {
+	font-size: 28px;
+	padding-top:50px;
+	color: #222;
+	margin:10px 0 20px 0;
+	text-align: left;
+}
+
+.heading2 {
+	font-size: 28px;
+	padding-top:95px;
+	color: #222;
+	margin:10px 0 20px 0;
+	text-align:left;	
+}
+
+.heading3 {
+	font-size: 32px;
+	padding-top:30px;
+	color: #fefefe;
+	margin:10px 0 20px 0;	
+}
+
+.subheading {
+	font-size: 29px;
+	color: #222;
+	margin:10px 0 20px 0;	
+}
+
+.subheading2 {
+	font-size: 29px;
+	color: #222;
+	margin:10px 0 20px 0;	
+}
+
+
+
+.wanted {
+	background: url(../logo/cp_ctform.png) ;
+	background-size:100% 100%;
+	width:460px;
+	height: 400px;
+}
+
+@media screen and (max-width: 1400px){
+	.wanted {
+		background: url(../logo/cp_ctform.png) ;
+		background-size:100% 100%;
+		width:400px;
+		height: 470px;
+		
+	}
+}
+
+@media screen and (max-width: 800px){
+	.wanted {
+		background: url(../logo/cp_ctform.png) ;
+		background-size:100% 100%;
+		width:250px;
+		height: 720px;
+		
+	}
+}
+
+.wanted2 {
+	background: url(../logo/cp_ctform.png) ;
+	background-size:100% 100%;
+	width:400px;
+	height: 140px;
+	margin-top:70px;
+}
+
+@media screen and (max-width: 1400px){
+	.wanted2 {
+		background: url(../logo/cp_ctform.png) ;
+		background-size:100% 100%;
+		width:350px;
+		height: 140px;
+		
+	}
+}
+
+@media screen and (max-width: 800px){
+	.wanted2 {
+		background: url(../logo/cp_ctform.png) ;
+		background-size:100% 100%;
+		width:240px;
+		height: 180px;
+		
+	}
+}
+
+
+
+
+
+
+
+
+
+
+.quotetext {
+	font-family: 'Shadows Into Light Two', sans-serif;
+	color:#fefefe;
+	font-size: 21px;
+	font-weight:600;
+	text-align: justify;
+	
+	margin-top: 10px;
+}
+
+.quotetext2 {
+	font-family: 'Shadows Into Light Two', sans-serif;
+	color:#222;
+	font-size: 21px;
+	font-weight:600;
+	text-align: justify;
+	
+	margin-top: 10px;
+}
+
+.partnerheader {
+	font-family: 'Shadows Into Light Two', sans-serif;
+	color:#222;
+	font-size: 26px;
+	font-weight:600;
+	text-align: center;
+	padding-top:20px;
+}
+
+
+.partnertext {
+	font-family: 'Shadows Into Light Two', sans-serif;
+	color:#222;
+	font-size: 20px;
+	text-align: justify;
+	
+}
+
+.quoteheader1 {
+	font-family: 'Lato', sans-serif;
+	color:#222;
+	font-size: 18px;
+	font-weight:600;
+	text-align: left;
+}
+
+
+
+.photomargin1 {
+	margin-top: 90px;
+}
+
+.photomargin2 {
+	margin-top: 105px;
+}
+
+.quoteheaderresponsive {
+	font-family: 'Lato', sans-serif;
+	color:#222;
+	font-size: 18px;
+	text-align: right;
+	margin-top:-30px;
+}
+
+
+
+@media only screen
+and (max-width : 1200px) {
+	
+.quoteheaderresponsive {
+	font-family: 'Lato', sans-serif;
+	color:#222;
+	font-size: 18px;
+	text-align: right;
+	margin-top:3px;
+}
+
+.photomargin1 {
+	margin-top: 10px;
+}
+
+.photomargin2 {
+	margin-top: 10px;
+}
+
+.partnerheader {
+	font-family: 'Shadows Into Light Two', sans-serif;
+	color:#222;
+	font-size: 26px;
+	font-weight:600;
+	text-align: center;
+	
+}
+
+}
+
+
+
+.quotetext {
+	font-family: 'Lato', sans-serif;
+	color:#fefefe;
+	font-size: 21px;
+	text-align: justify;
+	
+	margin-top: 10px;
+}
+
+.quotetext2 {
+	font-family: 'Lato', sans-serif;
+	color:#222;
+	font-size: 17px;
+	text-align: justify;
+	font-weight:400;
+	margin-top: 10px;
+}
+
+
+.quoteheader2 {
+	font-family: 'Lato', sans-serif;
+	color:#222;
+	font-size: 18px;
+	
+	text-align: right;
+}
+
+
+
+
+
+
+
+#contactheading {
+	font-family: 'Lato', sans-serif;
+	font-size: 29px;
+	font-weight: bold;
+}
+
+
+.bodytext {
+	font-family: 'Lato', sans-serif;
+	font-size: 18px;
+	text-align: left;
+	color: #222;
+	
+}
+
+.bodytext2 {
+	font-family: 'Lato', sans-serif;
+	font-size: 18px;
+	text-align: left;
+	color: #222;
+	
+}
+
+.contactcity {
+	margin-left:65px;
+	margin-right: -40px;
+}
+
+
+
+.linkword {
+color:#ff096a; 
+font-size:18px;
+font-family:'Lato', sans-serif;
+}
+
+.linkbutton {
+	color: #ff096a;
+	font-size: 29px;
+	font-family: 'Shadows Into Light Two', sans-serif;
+	
+	
+
+}
+
+.linkbutton2 {
+	color: #ff096a;
+	font-size: 29px;
+	font-family: 'Shadows Into Light Two', sans-serif;
+	
+	
+
+}
+
+
+
+
+.mediasection {
+	background-color: #222;
+	height:auto;
+	width:100%;
+}
+
+.twitterfeed {
+	margin-top:40px;
+}
+
+.tumblrfeed {
+	margin-top:50px;
+	margin-left:15px;
+}
+.tumblrfeed-inner-wrap {
+    background-color: #fff;
+    border-radius: 5px;
+    height: 250px;
+    padding: 5px;
+    font-size: 14px;
+    margin-left:25px;
+}
+.tumblrfeed-inner {
+    padding: 5px;
+    height: 100%;
+    overflow: auto;
+}
+.tumblt-post {
+  padding: 5px 0;
+}
+.tumblrfeed-inner a {
+    color: #000;
+    font-weight: bold !important;
+    text-decoration: underline;
+}
+.tumblrfeed-inner a:hover {
+    text-decoration: none;
+}
+
+.socialbuttons {
+	margin-top:100px;
+}
+
+#textlift {
+	color: #222;
+	font-size: 23px;
+	font-family: 'Shadows Into Light Two', sans-serif;
+	padding-top:20px;
+}
+
+#join-our-conquest-for-greater-experiences {
+	text-align: center;
+	padding-top: 110px;
+	font-family: 'Lato', sans-serif;
+	font-size: 18px;
+	color: #222;
+	background-color: #fefefe;
+}
+
+#people h3 { 
+	color:#333;
+	font-size:16px;
+}
+#people p {
+	font-size:16px;	
+	color:#333;
+}
+
+.title {
+	
+}
+
+#aboutusheading {
+	text-align:center;
+}
+
+#passion-for-moving-experiences {
+	padding-top: 30px;
+}
+
+#teamHeading {
+	padding-bottom: 30px;
+	text-align: center;
+	color: #222;
+}
+
+#contact-us {
+	color: #222;
+	padding: 110px 0;	
+} 
+ 
+
+
+/* all the id's end here */
+
+/* Section CSS starts */
+.blurb {
+  padding-bottom: 50px;
+  background-color:#fefefe;
+  
+}
+
+.blurb .panel {
+  background-color:transparent;
+}
+
+.bright {
+  background: #dbdbdb url('http://www.bootply.com/assets/example/pt_topo.png') repeat center center fixed; 
+  color:#777;
+}
+
+
+.featurette {
+  background: #fefefe;
+  padding: 50px 0;
+  color: #fff;
+
+}
+.featurette p{ 
+  font-family: 'Lato', sans-serif; 
+ }
+.featurette-item {
+  margin-bottom: 15px;
+}
+
+.featurette-item > i {
+  border: 3px solid #ffffff;
+  border-radius: 50%;
+  display: inline-block;
+  font-size: 56px;
+  width: 140px;
+  height: 140px;
+  line-height: 136px;
+  vertical-align: middle; 
+  text-align: center;
+}
+
+.featurette-item > i:hover {
+  font-size: 68px;
+}
+/* Section CSS starts */
+
+/* Footer section */
+footer {
+  padding: 10px 0;
+  background-color: #222;
+  color: #fff;
+  position: inherit;
+  z-index: 20;
+  height: 1;
+  margin-bottom: -3em;
+  font-family: 'Lato', sans-serif; 
+  font-size:18px;
+}
+
+.footerheading{
+	font-size: 35px;
+	font-family:'Shadows Into Light Two', sans-serif;
+}
+#footertext {
+	font-size: 18px;
+}
+/* Footer section */
+
+
+/* Contact form on the Contact Us section */
+#contactform9{
+    background:url(../logo/cp_ctform.png)no-repeat;
+    background-size:100% 100%;
+	width:500px;
+	height:575px;
+	margin-top:-100px;
+	margin-left:40px;
+}
+
+form {
+    margin-left:auto;
+    margin-right:auto;
+    width: 500px;
+    height:485px;
+    padding:30px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+
+}
+
+input {
+    width: 400px;
+    height: 48px;
+    border: 1px solid black;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box; 
+    display:block;
+    font-family: 'Lato', sans-serif;
+    font-size:17px;
+    color:#222;
+    padding-left:20px;
+    padding-right:20px;
+    margin-bottom:20px;
+}
+
+select {
+    width: 400px;
+    height: 48px;
+    border: 1px solid black;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box; 
+    display:block;
+    font-family: 'Lato', sans-serif;
+    font-size:17px;
+    color:#222;
+    padding-left:20px;
+    padding-right:20px;
+    margin-bottom:20px;
+}
+
+input[type=submit] {
+    cursor:pointer;
+}
+
+input.name {
+	  background: rgba(255, 255, 255, 0.4); 
+	  padding-left:15px; /*position of the question: First name/second name to the left*/
+	  width: 450px;
+}
+input.tel {
+	  background: rgba(255, 255, 255, 0.4) no-repeat scroll 16px 16px; 
+	  padding-left:15px; 
+	  width: 450px;
+}
+
+select.reason {
+	background: rgba(255, 255, 255, 0.4) no-repeat scroll 16px 16px; 
+	padding-left:15px; 
+	width: 450px;
+	font-family: 'Shadows Into Light Two', sans-serif;
+}
+
+input.email {
+	  background: rgba(255, 255, 255, 0.4) ;
+	  padding-left:15px;
+	  width: 450px;
+}
+
+textarea.message {
+	  background: rgba(255, 255, 255, 0.4) ;
+	  padding-left:15px;
+	  
+	  -webkit-box-sizing: border-box;
+	  -moz-box-sizing: border-box;
+	  box-sizing: border-box;
+
+	  width: 100%;
+	  height: 155px;
+}
+
+::-webkit-input-placeholder {
+	  color: #222;
+	  font-family:'Shadows Into Light Two', sans-serif;
+}
+
+:-moz-placeholder{ 
+    color: #222; 
+	font-family:'Shadows Into Light Two', sans-serif;
+}
+
+::-moz-placeholder {
+    color: #222;
+	font-family:'Shadows Into Light Two', sans-serif;
+}
+
+:-ms-input-placeholder {  
+	  color: #222;
+	  font-family:'Shadows Into Light Two', sans-serif;
+}
+
+input:focus, textarea:focus { 
+	  background-color: #c3c3c3;
+    -moz-box-shadow: 0 0 5px 1px rgba(255,255,255,.5);
+    -webkit-box-shadow: 0 0 5px 1px rgba(255,255,255,.5);
+    box-shadow: 0 0 5px 1px rgba(255,255,255,.5);
+	  overflow: hidden; 
+	 	
+}
+
+
+.btnct {
+	  width: 138px;
+	  height: 44px;
+	  -moz-border-radius: 4px;
+	  -webkit-border-radius: 4px;
+	  border-radius: 4px;
+	  float:right;
+    border: 1px solid #FF096A;
+    background: #FF096A; 
+    background: -webkit-gradient(linear, left top, left bottom,(#ff096a));
+    background: -webkit-linear-gradient(top,#ff096a);
+    background: -moz-linear-gradient(top, #ff096a);
+    background: -ms-linear-gradient(top, #ff096a);
+    background: -o-linear-gradient(top, #ff096a);
+    background-image: -ms-linear-gradient(top, #6da5a3 0%, #ff096a 100%);
+    padding: 10.5px 21px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    -webkit-box-shadow: rgba(255,255,255,0.1) 0 1px 0, inset rgba(255,255,255,0.7) 0 1px 0;
+    -moz-box-shadow: rgba(255,255,255,0.1) 0 1px 0, inset rgba(255,255,255,0.7) 0 1px 0;
+    box-shadow: rgba(255,255,255,0.1) 0 1px 0, inset rgba(255,255,255,0.7) 0 1px 0;
+    text-shadow: #333333 0 1px 0;
+    color: #fff;
+	font-size: 18px;
+}
+
+.btnct:hover {
+    border: 1px solid #253737;
+    text-shadow: #333333 0 1px 0;
+    background: #05a305;
+    background: -webkit-gradient(linear, left top, left bottom, from(#77b2b0), to(#05a305));
+    background: -webkit-linear-gradient(top, #77b2b0, #05a305);
+    background: -moz-linear-gradient(top, #77b2b0, #05a305);
+    background: -ms-linear-gradient(top, #77b2b0, #05a305);
+    background: -o-linear-gradient(top, #77b2b0, #05a305);
+    background-image: -ms-linear-gradient(top, #77b2b0 0%, #05a305 100%);
+    color: #fff;
+ }
+
+.btnct:active {
+    margin-top:1px;
+    text-shadow: #333333 0 -1px 0;
+    border: 1px solid #253737;
+    background: #05a305;
+    background: -webkit-gradient(linear, left top, left bottom, from(#416b68), to(#416b68));
+    background: -webkit-linear-gradient(top, #416b68, #609391);
+    background: -moz-linear-gradient(top, #416b68, #6da5a3);
+    background: -ms-linear-gradient(top, #416b68, #6da5a3);
+    background: -o-linear-gradient(top, #416b68, #6da5a3);
+    background-image: -ms-linear-gradient(top, #416b68 0%, #6da5a3 100%);
+    color: #fff;
+    -webkit-box-shadow: rgba(255,255,255,0) 0 1px 0, inset rgba(255,255,255,0.7) 0 1px 0;
+    -moz-box-shadow: rgba(255,255,255,0) 0 1px 0, inset rgba(255,255,255,0.7) 0 1px 0;
+    box-shadow: rgba(255,255,255,0) 0 1px 0, inset rgba(255,255,255,0.7) 0 1px 0;
+   }
+
+/* Contact form on the Contact Us section END */
+
+
+
+
+
+   /* Social media buttons in footer */
+  
+.social-popout {
+	-webkit-transition: all ease 0.5s;
+	-moz-transition: all ease 0.5s;
+	-o-transition: all ease 0.5s;
+	-ms-transition: all ease 0.5s;
+	transition: all ease 0.5s;
+}
+.social-popout img {
+	border-radius: 50%;
+	margin: 8px;
+	width: 100%;
+	box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.8);
+	-webkit-transition: all ease 0.5s;
+	-moz-transition: all ease 0.5s;
+	-o-transition: all ease 0.5s;
+	-ms-transition: all ease 0.5s;
+	transition: all ease 0.5s;
+}
+
+
+iframe[id^='twitter-widget-']{ 
+	width:90% !important;
+	margin-top:10px !important;
+	
+}
+
+
+	
+a.control_prev, a.control_next {
+  position: absolute;
+  top: 60%;
+  z-index: 999;
+  display: block;
+  padding: 25px 50px;
+  width: 5px;
+  height: 5px;
+  background: #2a2a2a;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+a.control_prev:hover, a.control_next:hover {
+  opacity: 1;
+  -webkit-transition: all 0.2s ease;
+}
+
+a.control_prev {
+  left:-40px;
+  border-radius: 0 2px 2px 0;
+  background: url(arrowl.png);
+}
+
+a.control_next {
+  right: 0;
+  border-radius: 2px 0 0 2px;
+  background: url(arrowr.png);
+}
+/*end of slider option 2*/
+
+
+/*responsive image*/
+.img-responsive {
+position: relative; height: auto; width: 100%;
+    max-width: 100%; 
+    margin: 1% auto; padding: 1% 0;
+	
+}
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (max-width : 480px) {
+.img-responsive {
+ -o-transform: none !important;
+ -moz-transform: none !important;
+ -ms-transform: none !important;
+ -webkit-transform: none !important;
+ transform: none !important;
+}
+
+.contactcity {
+	margin-left:0;
+	margin-right:0;
+}
+
+.twitterfeed {
+	margin-top: 0;
+}
+
+.tumblrfeed {
+	margin-top:0;
+}
+
+
+.socialbuttons {
+	margin-top:0;
+}
+
+
+
+}
+
+@media only screen
+and (max-width : 800px) {
+	.sectionswitch{
+		background:url(../logo/cloud1.png);
+		background-size:100% 100%;
+		width:100%;
+		height:20%;
+		display:block;
+		margin-bottom:30px;
+	}
+	.sectionswitchwhite{
+		background:url(../logo/cloud_white.png);
+		background-size:100% 100%;
+		width:100%;
+		height:20%;
+		display:block;
+	}
+}
+
+@media only screen
+and (max-width : 1200px) {
+.mobileonly { 
+visibility:visible;
+}
+.pconly {
+visibility:hidden;
+display:none;
+}
+}
+
+@media only screen
+and (min-width : 1201px) {
+.mobileonly { 
+visibility:hidden;
+display:none;
+}
+.pconly {
+visibility:visible;
+}
+}
+
+
+/* Contact form on the Contact Us section RESPONSIVE STARTS */
+@media only screen
+and (max-width : 1200px) {
+
+#contactform9{
+    background:url(../logo/cp_ctform.png)no-repeat;
+    background-size:100% 100%;
+	width:100%;
+	height:575px;
+	margin:0;
+}
+
+form {
+    margin-left:auto;
+    margin-right:auto;
+    width: 90%;
+    height:485px;
+    padding:30px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+
+}
+
+input {
+    width: 90%;
+    height: 48px;
+    border: 1px solid black;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box; 
+    display:block;
+    font-family: 'Lato', sans-serif;
+    font-size:17px;
+    color:#222;
+    padding-left:20px;
+    padding-right:20px;
+    margin-bottom:20px;
+}
+
+select {
+    width: 300px;
+    height: 48px;
+    border: 1px solid black;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box; 
+    display:block;
+    font-family: 'Lato', sans-serif;
+    font-size:17px;
+    color:#222;
+    padding-left:20px;
+    padding-right:20px;
+    margin-bottom:20px;
+}
+
+input[type=submit] {
+    cursor:pointer;
+}
+
+input.name {
+	  background: rgba(255, 255, 255, 0.4); 
+	  padding-left:15px; /*position of the question: First name/second name to the left*/
+	  width: 90%;
+}
+input.tel {
+	  background: rgba(255, 255, 255, 0.4) no-repeat scroll 16px 16px; 
+	  padding-left:15px; 
+	  width: 90%;
+}
+
+select.reason {
+	background: rgba(255, 255, 255, 0.4) no-repeat scroll 16px 16px; 
+	padding-left:15px; 
+	width: 90%;
+}
+
+input.email {
+	  background: rgba(255, 255, 255, 0.4);
+	  padding-left:15px;
+	  width: 90%;
+}
+
+input.message {
+	  background: rgba(255, 255, 255, 0.4);
+	  padding-left:15px;
+	  width: 90%;
+	  height: 100px;
+}
+
+}
+
+
+/* Contact form on the Contact Us section RESPONSIVE ENDS */
+
+
+}
+/*Info box*/ 
+.infobox-container {
+    position: relative;
+    display: inline-block;
+    margin: 0 250px 0 250px;
+    padding: 0;
+    width: auto;
+}
+.infobox {
+    width: 630px;
+    padding: 10px 5px 5px 5px;
+    margin:10px;
+    position: relative;
+    z-index: 90;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    -webkit-box-shadow: 0px 0px 3px rgba(0,0,0,0.55);
+    -moz-box-shadow: 0px 0px 3px rgba(0,0,0,0.55);
+    box-shadow: 0px 0px 3px rgba(0,0,0,0.55);
+    background: #424242;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#6a6b6b), to(#424242));
+    background-image: -moz-linear-gradient(top,#6a6a6a,#424242);
+    color: #fff;
+    font-size: 90%;
+}
+.infobox h3 {
+    position: relative;
+    width: 650px;
+    color: #fff;
+    padding: 10px 5px;
+    margin: 0;
+    left: -15px;
+    z-index: 100;
+    -webkit-box-shadow: 0px 0px 3px rgba(0,0,0,0.55);
+    -moz-box-shadow: 0px 0px 3px rgba(0,0,0,0.55);
+    box-shadow: 0px 0px 3px rgba(0,0,0,0.55);
+    background: #3198dd;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#33acfc), to(#3198dd));
+    background-image: -moz-linear-gradient(top,#33acfc,#3198dd);
+    font-size: 160%;
+    text-align: center;
+    text-shadow: #2187c8 0 -1px 1px;
+    font-weight: bold;
+}
+ 
+.infobox a {
+    color: #35b0ff;
+    text-decoration: none;
+    border-bottom: 1px dotted transparent;
+}
+.infobox a:hover, .infobox a:focus {
+    text-decoration: none;
+    border-bottom: 1px dotted #35b0ff;
+}
+.infobox li { 
+position:inherit;
+font-size:18px;
+}
+/*About us - people - animation */ 
+
+#people {
+background:#fefefe;
+}
+
+/*Picture animation for People section */
+.view {
+    width: 255px;
+    height: 350px;
+    margin: 10px;
+    float: left;
+    border: 2px solid #fff;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    box-shadow: 1px 1px 2px #fff;
+    cursor: default;
+    background: #fff  no-repeat center center
+}
+.view .mask, .view .content {
+    width: 250px;
+    height: 340px;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0
+}
+.view img {
+    display: block;
+    position: relative; 
+	width:250px; 
+	height:350px;
+	margin: 0;
+}
+.view h2 {
+    text-transform: uppercase;
+    color: #333;
+    text-align: center;
+    position: relative;
+    font-size: 17px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.8);
+    margin: 20px 0 0 0
+}
+.view-fifth .content h2 { 
+font-family: 'Lato', sans-serif; 
+font-size: 20px;
+}
+
+.view p {
+    font-family: 'Lato',sans-serif;
+    font-size: 18px;
+    position: relative;
+    color: #333;
+    padding: 40px 20px 0px;
+    text-align: center;
+}
+.view-fifth img {
+	transition: all 0.3s ease-in-out; 
+}
+.view-fifth .mask { 
+	background-color: #d3d3d3;
+	transform: translateX(-300px);
+	opacity: 1;
+	transition: all 0.4s ease-in-out; 
+	height:350px;
+}
+.view-fifth h2{
+    background: rgba(255, 255, 255, 0.5);
+    color: #333;
+    box-shadow: 0px 1px 3px rgba(159, 141, 140, 0.5);
+}
+.view-fifth p{
+    opacity: 0;
+    color: #333;
+    transition: all 0.2s linear
+
+}
+
+.view-fifth:hover .mask {
+   -webkit-transform: translateX(0px);
+   -moz-transform: translateX(0px);
+   -o-transform: translateX(0px);
+   -ms-transform: translateX(0px);
+   transform: translateX(0px);
+}
+.view-fifth:hover img {
+   -webkit-transform: translateX(300px);
+   -moz-transform: translateX(300px);
+   -o-transform: translateX(300px);
+   -ms-transform: translateX(300px);
+   transform: translateX(300px);
+}
+.view-fifth:hover p {
+   -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
+   filter: alpha(opacity=100);
+   opacity: 1;
+}
+
+.container>.navbar-header, .container-fluid>.navbar-header, .container>.navbar-collapse, .container-fluid>.navbar-collapse {
+	text-align: center;
+
+	}
+	
+.modalDialog {
+	position: fixed;
+	font-family: 'Lato', sans-serif;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: 99999;
+	opacity:0;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	pointer-events: none;
+}
+.modalDialog:target {
+	opacity:1;
+	pointer-events: auto;
+}
+
+.modalDialog > div {
+	width: 500px;
+	position: relative;
+	margin: 10% auto;
+	padding: 5px 20px 13px 20px;
+	border-radius: 10px;
+	background: #fff;
+	background: -moz-linear-gradient(#fff, #999);
+	background: -webkit-linear-gradient(#fff, #999);
+	background: -o-linear-gradient(#fff, #999);
+}
+.close {
+	background: #606061;
+	color: #FFFFFF;
+	line-height: 25px;
+	position: absolute;
+	right: -12px;
+	text-align: center;
+	top: -10px;
+	width: 24px;
+	text-decoration: none;
+	font-weight: bold;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	-moz-box-shadow: 1px 1px 3px #000;
+	-webkit-box-shadow: 1px 1px 3px #000;
+	box-shadow: 1px 1px 3px #000;
+}
+
+.close:hover { background: #00d9ff; }	
+
+
+
+
+.container>.navbar-header, .container-fluid>.navbar-header, .container>.navbar-collapse, .container-fluid>.navbar-collapse {
+	text-align: center;
+
+	}
+
+/* -- end custom css for Bootstrap 3.x --*/
+#video-newsletter {
+margin-bottom:35px;
+}
+#video-newsletter .mainheading {
+padding-top:0;
+margin-top:0;
+}
+#video-newsletter #mc_embed_signup form {
+margin-top:0;
+padding-top:0;
+width:100%;
+height:auto;
+}
+#video-newsletter #mc_embed_signup form input {
+margin-bottom:0;
+}
+
+#video-newsletter #mc_embed_signup form #mc-embedded-subscribe {
+float:none;
+margin-top:0;
+margin-left:0;
+}
