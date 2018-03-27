@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+	
+	<link rel="shortcut icon" href="logo/favicon.ico"/>
+	<head><meta http-equiv="Content-Type" content="text/html" charset="UTF-8"> <title> Mobedig Ltd. </title> 
+                
+		 <!--UTF-8-->
+		<meta name="msvalidate.01" content="9855196847F254ADF2672D518DE22016" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0;">
+		<meta name="keywords" content="mobedig, mobilising, digitally, experiences, engagement">
+		<meta name="description" content="Extend the customer journey, amplify the experiences in the physical environments and engage with your customer with the help of 24h Experience ...">
+		<meta name="ROBOTS" content="index,follow"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0;">
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light+Two' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'> 
+		<!--[if lt IE 9]>
+			<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		<link href="css/styles.css" rel="stylesheet">	
+		
+		<!-- Mobile Menu-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+			
+		<!-- Javascript for search bar	
+				<script type="text/javascript">
+					document.getElementById('tfnewsearch').onsubmit = function() {
+						window.location = 'http://www.google.com/search?q=site:mobedig.com ' + document.getElementById('tftextinput').value;
+						return false;
+					}
+				</script>
+			-->
+			
+		<!-- Smooth scrolling starts here -->
+		
+				<script type="text/javascript">
+				   
+					var scrollY = 0;
+					var distance = 30;
+					var speed = 2;
+					var lastPos;
+				
+				function autoScrollTo(el){
+					var scrollPos = window.pageYOffset;
+					var targetPos = document.getElementById(el).offsetTop;				
+				   if(scrollPos < targetPos){
+						  scrollDown(el);
+				   } else {
+						  scrollUp(el);
+				}
+			}				
+				function scrollDown(el){
+					var currentY = window.pageYOffset;
+					var targetY = document.getElementById(el).offsetTop;
+					var animator = setTimeout ('scrollDown(\''+el+'\')', speed);					
+					 if (currentY < targetY && lastPos != currentY){						  
+						  scrollY = currentY+distance;
+						  window.scroll(0, scrollY);					
+					} else {				
+						clearTimeout(animator);						
+						}  
+					  if(scrollPos > targetPos){
+						  scrollUp(el);
+				   } else {
+						  scrollDown(el);
+				}
+			}				
+				function scrollUp(el){
+					var currentY = window.pageYOffset;
+					var targetY = document.getElementById(el).offsetTop;
+					var animator = setTimeout ('scrollUp(\''+el+'\')', speed);
+					
+					 if (currentY > targetY && lastPos != currentY){						  
+						  scrollY = currentY-distance;
+						  window.scroll(0, scrollY);					
+					} else {				
+						clearTimeout(animator);
+					}  				  
+					  if(scrollPos > targetPos){
+						  scrollUp(el);
+				   } else {
+						  scrollDown(el);
+				}
+			}				
+				function back(el){
+					var currentY = window.pageYOffset;
+					var targetY = document.getElementById(el).offsetTop;
+					var animator = setTimeout ('back(\''+el+'\')', speed);					
+					 if (currentY > targetY && lastPos != currentY){						  
+						  scrollY = currentY-distance;
+						  window.scroll(0, scrollY);					
+						  
+					} else {				
+						clearTimeout(animator);					
+					}  					
+			}
+			</script>
+		
+		<!-- Smooth scrolling ends here -->
+	
+	
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+		
+		  ga('create', 'UA-62863984-1', 'auto');
+		  ga('send', 'pageview');
+		
+		</script>
+			
+			
+			
+	
+		
+	</head>
+	
+	<!-- Navbar stuff starts-->
+<body width ="device-width">
+	<div class="navbar navbar-fixed-top alt" data-spy="affix" data-offset-top="1000">
+		<div class="container">
+			<div class="navbar-header" style="position:absolute;">
+			  
+			  <a class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			  </a>
+			</div>
+		
+			<div class="navbar-collapse collapse" id="navbar">
+				  <ul class="nav navbar-nav">
+					<li><a href="#mobedig"  onclick="return false;" onmousedown="autoScrollTo('mobedig');"><img src="logo/logo.png" 
+						alt="Mobedig logo" style="width:40px; height:40px; margin-top:-11px;"> </a></li>
+					<li><a href="#24h"  onclick="return false;" onmousedown="autoScrollTo('24h');"><img src="logo/24hlogowhite.png" 
+						alt="24h Heart Logo" style="width:60px; margin-top:-15px;"> </a></li>
+					<li><a href="#network"  onclick="return false;" onmousedown="autoScrollTo('network');">NETWORK</a></li>
+					<li><a href="#aboutus" onclick="return false;" onmousedown="autoScrollTo('aboutus');">ABOUT</a></li>
+					<li><a href="#contactus"  onclick="return false;" onmousedown="autoScrollTo('contactus');">CONTACT</a></li>
+				  </ul>
+			</div>
+		</div>
+	</div>
+<!-- Navbar stuff ends-->
+
+<div name="mobedig" id="mobedig" >
+				
+				<!-- HTML for SEARCH BAR 
+					<div id="tfheader">
+						<form id="tfnewsearch" method="get" action="http://www.google.com">
+								<input type="submit" value="search" class="tfbutton"><input type="text" id="tftextinput" name="q" size="21" maxlength="120">
+						</form>
+					<div class="tfclear"></div>
+					</div>
+				-->
+					
+			<div class="container">
+				<center> <img src="logo/mobediglogo.png" alt="Mobedig Logo" style="width:450px; height:auto; padding-top: 100px;" class="img-responsive" > </center>
+			</div>
+			
+					
+			<div class="container">
+				<div class="row">
+						<div class="col-md-1"> 
+						</div>
+						<div class="col-md-5">
+							<h1 class="mainheading" style="text-align: left;">mobilising experiences digitally</h1> 
+							<p class="bodytext"> Lead, run and measure the experiences you 
+								offer more successfully by connecting offline to online. 
+								Extend the customer journey, amplify the experiences in the 
+								physical environments and engage with your customer with 
+								the help of 24h<img src="logo/logo.png" alt="Mobedig logo pink heart" style="width:20px; height:20px;">. </p>
+								
+								<p class="bodytext">Let your customers personalise 
+								their experience according to their needs and desires and 
+								turn them from one time customers to loyal fans! 
+							</p>
+							<!-- 
+							<h2 style="text-align:center; padding-left:75px; padding-top: 10px; "> <a class="linkbutton" href="http://www.youtube.com"> <img src="logo\movie.png" alt="Movie Projector" 
+								style="margin-top: -15px; width:80px; padding-right: 5px;"> Watch a trailer </a> </h2>
+							-->
+						</div>
+				  
+						<div class="col-md-6">
+							<div> <img src="logo/coupleAtAmusementPark.png" alt="Young couple in an amusement park" class="img-responsive" 
+							style="width: 500px; margin-top: 50px; -ms-transform: rotate(7deg);-webkit-transform: rotate(7deg); transform: rotate(7deg);" > </div>
+							
+						</div>
+						
+				</div>
+			</div>		
+						
+</div>	
+<div class="mediasection" >				
+			<div class="container">
+				<div class="row">
+					<div class="col-md-1">		
+							<div>
+											
+								<img src="logo/hp_latest.png" alt="Latest" style="width:140px; height:auto;margin-bottom:100px; -ms-transform: rotate(-25deg);-webkit-transform: rotate(-25deg); transform: rotate(-25deg); ">
+											
+							</div>
+					</div>
+					
+					<div class="col-md-4 tumblrfeed">
+							
+						<iframe width="400" height="300" style="border:none;"  src="http://output57.rssinclude.com/output?type=iframe&amp;id=993086&amp;hash=cb8439b16a3a7c0c6af996bd7d6402ff"></iframe>
+						<!--<iframe src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fmobedigcom?fref=ts&amp;width=490&amp;colorscheme=light&amp;show_faces=true&amp;data-show-cover=true&amp;border_color&amp;stream=true&amp;header=true&amp;height=435" 
+scrolling="yes" frameborder="1" style="border-style:solid; 
+overflow:hidden; margin-top:10px; width:350px; height:250px; background: #fff;" allowTransparency="true"></iframe> -->
+					
+							  
+					</div>
+					<div class="col-md-4 twitterfeed">
+							<div class="featurette-item"> 
+							<a class="twitter-timeline" width="90%" height="250" href="https://twitter.com/Mobedig" data-widget-id="598187521131061249">Tweets by @Mobedig</a>
+								<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+								
+					</div>  
+							  
+					</div>
+					<!--
+					<div class="col-md-2" style="margin-top: 30px;">		
+						<div>
+							<img src="logo\news.png" alt="Letter" style="width:120px; height:auto;">				
+							<h2 style="margin-top:0; margin-left:50px;"> <a class="linkbutton" href="#">Keep me<br> posted </a></h2>
+												
+						</div>
+					</div>
+					-->
+						 
+					<div class="col-md-2 socialbuttons">		
+						<div> 
+
+							<a href="https://www.facebook.com/mobedigcom?fref=ts&ref=br_tf"> <img src="logo/facebookbw.png" alt="Facebook logo" style="width:60px; height:60px;"> </a>
+							<a href="https://twitter.com/mobedig"> <img src="logo/twitterbw.png" alt="Twitter logo"  style="width:60px; height:60px;"></a>
+								<br>
+							<a href="https://www.linkedin.com/company/mobedig"><img src="logo/linkedinbw.png" alt="Linkedin logo" style="width:60px; height:60px;"></a>
+							<a href="#contactus"  onclick="return false;" onmousedown="autoScrollTo('contactus');"><img src="logo/contactmebutton.png" alt="Contact me icon" style="width:50px; height:50px; margin-left:5px;"></a>
+										
+						</div> 
+					</div>	
+					<div class="col-md-1">		  
+					</div>	
+				</div>
+			</div>			
+</div>		
+
+
+<!-- 24h section -->
+
+<div name="24h" id="24h" class="mainsection" >
+			<div class="container">
+				<center> <img src="logo/24hlogo.png" alt="Mobedig logo pink heart" style="width:140px;"></center>
+			</div>
+			<div class="container">
+				<div class="row">
+						<div class="col-md-6">
+							<div> <img src="logo/familyatthezoo.gif" alt="Family at the zoo" class="img-responsive" 
+									style="width: 550px; -ms-transform: rotate(-7deg);-webkit-transform: rotate(-7deg); transform: rotate(-7deg);" > </div>
+							
+						</div>
+				  
+						<div class="col-md-5">
+							<h1 class="heading2">mobilise emotions and engagement</h1>
+							<p class="bodytext2">Experiences are more intense when shared. 
+							Shared experiences will mobilise emotions and engagement. 
+							<br>The digital world must trigger and mobilise experiences in the physical 
+							world so that the focus is on the things actually happening around us.
+							<br><br>
+							Mobilising experiences, thus emotions and engagement by extending the 
+							customer journey and amplifying the experiences along the way create loyal fans.
+							</p>
+							
+						</div>
+						<div class="col-md-1"> 
+						</div>
+						
+						
+				</div>
+			</div>		
+						
+</div>	
+
+
+<!--Network section starts-->
+<div name="network" id="network" class="blurb"> 
+	<div class="container">
+		<div class="row"> 
+			<div > 
+				<div>
+					<h1>NETWORK</h1>
+				</div>
+				
+			<!--	<div class="row">
+							<div class="col-md-6">
+								<div> <img src="logo/lilboy.gif" alt="Young couple in an amusement park" class="img-responsive" 
+								style="width: 500px; -ms-transform: rotate(-7deg);-webkit-transform: rotate(-7deg); transform: rotate(-7deg);" > </div>
+								
+							</div>
+							
+							<div class="col-md-6">
+								<div> <img src="logo/lilboy.gif" alt="Young couple in an amusement park" class="img-responsive" 
+								style="width: 500px; -ms-transform: rotate(7deg);-webkit-transform: rotate(7deg); transform: rotate(7deg);" > </div>
+								
+							</div>						
+				</div> 
+				
+			-->
+				<div class="row">
+					<div class="col-md-12">
+								<h1  id="networksubheading">join our conquest for greater experiences </h1>
+								<a href="#openModal"><img src="logo\hp_latest.png"> </a>
+
+							<div id="openModal" class="modalDialog">
+								<div>
+									<a href="#close" title="Close" class="close">X</a>
+									<h2>Modal Box</h2>
+									<p>Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum</p>
+									<p>Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum
+									ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum</p>
+								</div>
+							</div>
+												
+					</div> 
+				</div>
+				<div class="row">
+						<div class="col-md-1"> 
+						</div>
+						<div class="col-md-5">
+								<div> <a href="network.html"> <img src="logo/24hPARTNER_Location.jpg" alt="24h Partner Ecosystem image" class="img-responsive" 
+								style="width: 200px;" > </a> </div>
+								<p class="bodytext"> Are you a zoo, aquarium, amusement park or perhaps an 
+								event business and passionate about offering great experiences like we are? 
+								As a 24h<img src="logo/logo.png" alt="Mobedig logo pink heart" style="width:20px; height:20px;"> Location Partner, you offer superior value to your customers, 
+								measure your success before, during and after the visit and increase your sales 
+								and EBITDA! Wait no longer but <a class="linkword" href="mailto:vilma.gustafsson@mobedig.com"> 
+								contact us </a> to know more!
+								</p>
+								
+						</div>
+						
+							
+						<div class="col-md-5">
+								<div> <img src="logo/24hPARTNER_Ecosystem.jpg" alt="24h Partner Location image" class="img-responsive" 
+								style="width: 200px;" > </div>
+								<p class="bodytext2"> Are you building game changing services and/or products? 
+								As a 24h<img src="logo/logo.png" alt="Mobedig logo pink heart" style="width:20px; height:20px;"> Ecosystem Partner, you are passionate about helping our industry-specific, 
+								location business partners to thrive by providing top-quality content, technology, marketing, 
+								consulting or support services and products to complement our 24h<img src="logo/logo.png" alt="Mobedig logo pink heart" style="width:20px; height:20px;"> Ecosystem. Do you recognise 
+								your company in the description? If so, <a class="linkword" href="mailto:jannika.joutsenniemi@mobedig.com"> contact us now</a>! 
+								
+								</p>
+						
+						</div>
+						<div class="col-md-1"> 
+						</div>						
+											
+				</div>
+				
+			</div>
+		</div>
+	</div>
+</div>	
+<!--Network section ends-->
+<div class="sectionswitch"></div>
+
+<!--About section starts-->
+								
+<div class="blurb" id="aboutus">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+					
+											<center> <h1>ABOUT</h1> </center>
+			</div>	
+		</div>
+	</div>
+	<div class="container">
+		<div class="row">
+						<div class="col-md-1"> 
+						</div>		
+						<div class="col-md-5">
+								<h1 class="heading1"> passion for great experiences </h1>
+															
+									<p class="bodytext">We have a passion for moving people both emotionally and physically. 										Nothing is better than putting smiles on people's face and see them enjoy themselves...while gathering bigger crowds through your door. 
+									<br> <br>
+									Mobedig is an insight and innovation company. We believe that insight makes great visions thrive. We seek for mind-blowing possibilities to trigger emotions and engagement. We believe that technology helps delivering compelling stories and top-of-the roof experiences in the physical environment.
+									</p> <br>
+									<a href="people.html"><img src="logo/meetthepeople.png" alt="Meet the people" style="width: 200px; -ms-transform: rotate(-7deg);-webkit-transform: rotate(-7deg); transform: rotate(-7deg);" class="img-responsive"> </a>  
+						</div>
+														
+						<div class="col-md-6"> <img src="logo/drawingboy.png" alt="A boy drawing" style="width:500px; margin-top: 50px; -ms-transform: rotate(7deg);-webkit-transform: rotate(7deg); transform: rotate(7deg);" class="img-responsive">
+						  
+						
+						</div>
+		</div>						
+	</div>
+</div>	
+	
+<!-- Contact Us section -->
+<div id="contactus" class="blurb">
+	<div class="container">
+			<h1 style="text-align: center;"> CONTACT </h1>
+		<div class="row">
+		
+				<div class="col-md-1">
+				
+				</div>	
+				
+				<div class="col-md-5"> 
+					<div>  <img src="logo/mobediglogo.png" alt="Mobedig Logo" style="width:200px; height:auto; margin-left: 0; margin-top: 25px;" class="img-responsive" ></div> 
+					<h3> <b>Mobedig Ltd.</b> </h3>
+						<p> 
+							Spektri Business Park <br>
+							Metsänneidonkuja 12 <br>
+							02130 ESPOO<br>
+							Finland 
+						</p>
+					
+					<h3><b>Email</b></h3>
+						<p> 
+							firstname.lastname@mobedig.com 
+						</p>
+								
+				</div>
+			  
+				<div class="col-md-3"> 
+						<h3 class="linkbutton"><img src="logo/cp_phone.png"  alt="Mobile phone icon" style="height:auto; width:50px;"> CONTACT US</h3>
+						<div class="contactcity">
+							<h3> <b>Helsinki | Finland</b> </h3>
+							<img src="logo/jannika.png"  alt="Jannika Joutsenniemi" style="height:auto; width:45px; float:left; margin-right: 10px"> Jannika Joutsenniemi <br> 
+								+358 40 700 3202
+						</div>
+				</div>
+				
+				<div class="col-md-3"> 
+						<div class="contactcity" >
+							<h3 style="padding-top: 75px;"> <b>Malmö | Sweden</b> </h3>
+							<img src="logo/Vilma.png"  alt="Vilma Gustafsson" style="height:auto; width:45px; float:left; margin-right: 10px; ">
+							Vilma Gustafsson <br> 
+							 +46 73 506 41 96
+							
+						</div>
+				</div>
+		</div>
+	</div>
+
+			
+		<div class="container">		
+			<div class="row">
+			
+					<div class="col-md-1">
+				
+					</div>
+			
+					<div class="col-md-5"> 
+						<img src="logo/cp_map.png"  alt="Map icon" style="height:250px; width:auto; margin-top: 60px;"> </img>
+						<div>
+							<p> Our office is located at the KVINTTI building, 1st floor.
+							</p>
+						</div>
+					</div>
+					
+					<div class="col-md-1">
+				
+					</div>
+							
+			<!-- Contact form starts
+			
+					<div class="col-md-5">
+						<div  id="contactform9">
+						
+							<form method="post" action="send.php" id="contactForm">
+								<input name="name" placeholder="Name*" class="name" required /> 
+								<input name="organisation" placeholder="Organisation*" class="name" required/>
+								<input name="phone" placeholder="Phone" class="tel" type="tel"/> 
+								<input name="email" placeholder="E-mail*" class="email" type="email" required />	
+								<select name="reason" placeholder="Choose" class="reason">
+									<option value="Services">24hEXPERIENCE Services</option>
+									<option value="Location Partnerships">Location Partnerships</option>
+									<option value="Ecosystem Partnerships">Ecosystem Partnerships</option>
+									<option value="Press">Press</option>
+									<option value="Other">Other</option>
+								</select>								
+								<input name="comment" placeholder="Comment" class="message" type="message" /> 								 
+									<input name="submit" class="btnct" type="submit" value="Send"/>
+							</form>	
+							<div id="thanks" style="display:none"> Thanks </div>
+								<script type="text/javascript">
+								$('#contactForm').submit(function(e) { 
+								  e.preventDefault(); 
+								  $.ajax({ 
+									type: "POST", 
+								   url: $(this).attr('action'), 
+								   data: $(this).serialize(), 
+								   success: function(data) { 
+									 $('#thanks').show();   
+								   },
+								   error: function() { 
+									 alert('Something went wrong');  
+								   }
+								});
+								</script>
+						</div>
+				-->		
+						
+					</div>
+			<!-- Contact form ends-->
+			
+			</div>
+
+		</div>	  
+	
+</div>
+
+
+
+<!-- Footer section -->
+<footer>
+  <div class="container">
+    <div class="row">
+		<center> <h2 class="footerheading"> GET CONNECTED </h2>
+		
+        <div class="col-md-12" style="margin-top:20px;">
+			<div> 
+				<div></div>
+				<ul class="list-inline">
+				
+					<li><a href="https://www.facebook.com/mobedigcom?fref=ts&ref=br_tf"> <img src="logo/facebookbw.png"  alt="Facebook icon" style="width:65px; height:65px; margin:0; padding:0;"> </a></li>
+					<li><a href="https://twitter.com/mobedig"> <img src="logo/twitterbw.png"  alt="Twitter icon" style="width:65px; height:65px;margin:0; padding:0;"></a></li>
+					<li><a href="https://www.linkedin.com/company/mobedig"> <img src="logo/linkedinbw.png"  alt="Linkedin icon" style="width:65px; height:65px;margin:0; padding:0;"></a></li>
+					<li><a href="#contactus"  onclick="return false;" onmousedown="autoScrollTo('contactus');"><img src="logo/contactmebutton.png" alt="Contact me icon" style="width:55px; height:55px;margin:0; padding:0;"></a></li>
+				</ul>
+			</div>   
+		</div>
+		
+		<!--
+		<div class="col-md-4" style="margin-top: 30px; margin-left:-50px;">		
+						<div>
+							<img src="logo\news.png" alt="Letter" style="width:120px; height:auto;">				
+							<h2 style="margin-top:0; margin-left:20px;"> <a class="linkbutton" href="#">Keep me posted </a></h2>
+												
+						</div>
+		</div> -->
+		
+		
+    </div>
+	<br> 
+	<p class="col-md-6 col-md-offset-3 text-center" style="font-size:15px;"> <a> Site Map </a> | <a href="Mobedig EULA .pdf"> Site Terms </a> | <a href="Mobedig Privacy Policy.pdf"> Privacy </a> <br> 
+	Copyright &copy; 2015 24hZOO/Mobedig Ltd. All Rights Reserved.</p>
+  </div>
+
+</footer>
+	
+
+
+
+
+		
+	</body>
+</html>
